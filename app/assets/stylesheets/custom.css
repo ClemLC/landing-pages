@@ -207,3 +207,100 @@ video{
   width: 100%;
   height: auto;
 }
+
+/*-----------Flynn------------*/
+
+.background_flynn{
+  background-color: white;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.flynn_container{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.navbar_text{
+  font-family: sans-serif;
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar_container{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flynn_logo{
+  text-align: left;
+  height: auto;
+  width: 20%;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+.flynn_spacer{
+  height: auto;
+  width: 30%;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+.flynn_menu{
+  text-align: center;
+  height: auto;
+  width: 10%;
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: inherit;
+  line-height: 40px;
+}
+
+.flynn_menu:hover{
+  color: white;
+  background-color: grey;
+  background-size: cover;
+}
+
+.button_try{
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 5px;
+  font-family: sans-serif;
+  padding: auto;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+}
+
+.flynn_body{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.body_text{
+  font-size: 70px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
