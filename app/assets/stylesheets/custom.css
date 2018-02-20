@@ -24,10 +24,123 @@
 
 .indexlink{
   margin-top: 40%;
-color: white;
-font-family: sans-serif;
-font-size: 30px;}
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
 
 .indexlink:hover{
   color: grey;
+}
+
+/*--------------Checkr------------------*/
+.checkrbg{
+  background-image: url("lights.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.checkrlogo{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 0;
+  font-size: 30px;
+  display:inline-block;
+  padding-left: 10px;
+  float: left;
+  bottom: 0;
+}
+
+.checkr_first_line{
+  text-align: right;
+  width: 100%;
+  height: 40%;
+  justify-content: space-around;
+}
+
+.checkr_first_line_links{
+  font-family: sans-serif;
+  color: white;
+  list-style-type: none;
+  padding-right: 5px;
+}
+
+.checkr_first_line_links:hover{
+  color: grey;
+}
+
+.checkr_second_line{
+  justify-content: space-around;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.checkr_second_line_links{
+  font-family: sans-serif;
+  color: white;
+  list-style-type: none;
+  line-height: 45px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.login{
+  font-family: sans-serif;
+  color: white;
+  list-style-type: none;
+  line-height: 45px;
+  float: left;
+}
+
+.bttn{
+  height: 100%;
+  width: 200px;
+  color: yellow;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  font-family: sans-serif;
+  line-height: 45px;
+  float: left;
+}
+
+.Compliance{
+  font-family: sans-serif;
+  color: white;
+  list-style-type: none;
+  line-height: 45px;
+  float: left;
+}
+
+.Compliance:hover{
+  color: grey;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: black;
+}
+
+.checkr_second_line_links:hover .dropdown-content{
+  display: block;
+}
+
+.checkrtxt{
+  margin-top: 40%;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
 }
