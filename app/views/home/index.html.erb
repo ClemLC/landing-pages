@@ -1,2 +1,20 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<!DOCTYPE html>
+<html class="indexbg">
+  <head>
+    <title>LandingPagesClem</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <div class="indextitle">
+      Bienvenue sur ma landing page
+    </div>
+    <div class="indextxt">
+      Tu peux venir visiter la page de <%= link_to "Checkr", home_checkr_path, class:"indexlink" %> ou bien celle de <%= link_to "Flynn", home_flynn_path, class:"indexlink" %>
+    </div>
+  </body>
+</html>
